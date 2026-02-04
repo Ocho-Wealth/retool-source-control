@@ -3,7 +3,9 @@
   "version": "43.0.9",
   "pageUuid": "57d84900-01fb-11f1-af8c-4fb18d1cbcb1",
   "appTemplate": {
+    "appThemeId": 180281,
     "rootScreen": "page1",
+    "appThemeName": "Carry Product",
     "version": "3.335.0"
   }
 }
