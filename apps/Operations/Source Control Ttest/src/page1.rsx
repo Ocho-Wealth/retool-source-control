@@ -17,19 +17,7 @@
     padding="8px 12px"
     type="main"
   >
-    <Button
-      id="confettiButton"
-      eventHandlers={[
-        { event: "click", type: "script", script: "utils.confetti()" },
-      ]}
-      text="🎉 Celebrate!"
-    />
-    <Text
-      id="text1"
-      value="👋 **Hello {{ query1.data }}!**"
-      verticalAlign="center"
-    />
-    <Button id="button1" text="Button">
+    <Button id="confettiButton" text="🎉 Celebrate!">
       <Event
         id="25c3d140"
         event="click"
@@ -41,5 +29,10 @@
         waitType="debounce"
       />
     </Button>
+    <Text
+      id="text1"
+      value="👋 **Hello {{ query1.data }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </Screen>
