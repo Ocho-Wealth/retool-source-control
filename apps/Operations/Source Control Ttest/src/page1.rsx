@@ -22,5 +22,15 @@
       value="👋 **Hello {{ query1.data }}!**"
       verticalAlign="center"
     />
+    <Button
+      id="confettiButton"
+      text="🎉 Celebrate!"
+      _onClick={{
+        code: "utils.confetti()",
+        runAsync: true,
+        waitForMs: 0,
+        waitType: "debounce"
+      }}
+    />
   </Frame>
 </Screen>
