@@ -29,5 +29,17 @@
       value="👋 **Hello {{ query1.data }}!**"
       verticalAlign="center"
     />
+    <Button id="button1" text="Button">
+      <Event
+        id="25c3d140"
+        event="click"
+        method="confetti"
+        params={{}}
+        pluginId=""
+        type="util"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
   </Frame>
 </Screen>
