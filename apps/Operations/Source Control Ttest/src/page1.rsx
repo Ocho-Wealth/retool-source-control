@@ -25,12 +25,13 @@
     <Button
       id="confettiButton"
       text="🎉 Celebrate!"
-      _onClick={{
-        code: "utils.confetti()",
-        runAsync: true,
-        waitForMs: 0,
-        waitType: "debounce"
-      }}
+      eventHandlers={[
+        {
+          event: "click",
+          type: "script",
+          script: "utils.confetti()"
+        }
+      ]}
     />
   </Frame>
 </Screen>
