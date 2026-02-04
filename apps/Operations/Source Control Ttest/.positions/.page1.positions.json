@@ -1,5 +1,13 @@
 {
+  "button1": {
+    "row": 9.2,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "confettiButton": {},
   "text1": {
+    "row": 5,
     "height": 1
   }
 }
