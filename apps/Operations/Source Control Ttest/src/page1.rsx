@@ -34,5 +34,6 @@
       value="👋 **Hello {{ query1.data }}!**"
       verticalAlign="center"
     />
+    <Text id="text2" value="Testing 123" verticalAlign="center" />
   </Frame>
 </Screen>
